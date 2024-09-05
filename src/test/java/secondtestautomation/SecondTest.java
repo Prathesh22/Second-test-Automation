@@ -21,6 +21,7 @@ public class SecondTest {
 	    driver.findElement(By.linkText("Tablets")).click();
 	    //Partial
 	    driver.findElement(By.partialLinkText("Tab")).click();
+	    
 	 
 	}
 }
