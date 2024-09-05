@@ -11,6 +11,7 @@ public class SecondTest {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://demo.opencart.com/");
 		driver.manage().window().maximize();
+		
 		//name
 		driver.findElement(By.name("search")).sendKeys("Mac");
 		//id
